@@ -1,6 +1,5 @@
 '''
-    Data Visualization module
-    version: 1.0.1
+    Descriptive Statistics class
 '''
 
 # Libraries
