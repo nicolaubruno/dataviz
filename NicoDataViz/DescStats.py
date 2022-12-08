@@ -1,3 +1,8 @@
+'''
+    Data Visualization module
+    version: 1.0.1
+'''
+
 # Libraries
 #---
 
@@ -303,7 +308,7 @@ class DescStats():
             k = 0
             for i in range(self.grid_shape[0]):
                 for j in range(self.grid_shape[1]):
-                    max_lim = self.hist_ret[k][0]
+                    max_lim = max(self.hist_ret[k][0])
 
                     ylims[i, j, 0] = 0
                     ylims[i, j, 1] = 1.1 * max_lim
